@@ -9,8 +9,9 @@ Antes de comenzar, asegúrate de tener instalado:
 
 ### 2. Clonar el repositorio
 ```sh
-$ git clone <URL_DEL_REPOSITORIO>
-$ cd <NOMBRE_DEL_PROYECTO>
+$ git clone https://github.com/DominiqueDVD/be-mantenedor-usaurios.git
+$ cd be-mantenedor-usaurios
+
 ```
 
 ### 3. Instalación de dependencias

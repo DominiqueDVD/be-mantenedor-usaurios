@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: usuario
+      POSTGRES_PASSWORD: contrasenadominique3d
+      POSTGRES_DB: basededatos
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - db_network
+volumes:
+  postgres_data:
+    driver: local
+networks:
+  db_network:
+    driver: bridge
